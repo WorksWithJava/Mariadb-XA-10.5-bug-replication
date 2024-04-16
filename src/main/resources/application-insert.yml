@@ -1,0 +1,17 @@
+spring:
+  activemq:
+    broker-url: "vm://insert"
+    user: admin
+    password: password
+  datasource:
+    url: jdbc:mariadb://localhost:3306
+    username: root
+    password: master
+  jms:
+    template:
+      default-destination: insert
+  jta:
+    atomikos:
+      properties:
+        log-base-dir: insert-transaction-log
+        transaction-manager-unique-name: insert-tm

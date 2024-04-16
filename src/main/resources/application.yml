@@ -1,0 +1,23 @@
+spring:
+  activemq:
+    pool:
+      enabled: true
+      max-connections: 32
+  jta:
+    atomikos:
+      connectionfactory:
+        max-pool-size: 32
+
+mybatis:
+  mapper-locations: classpath*:/mybatis/*
+  configuration:
+    cache-enabled: true
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    ca:
+      usherbrooke:
+        veo:
+          xastresstester:
+            debug

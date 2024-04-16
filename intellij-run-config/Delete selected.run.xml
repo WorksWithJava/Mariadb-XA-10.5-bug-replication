@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Delete selected" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="delete,delete-selected" />
+    <module name="xa_stress_tester" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ca.usherbrooke.veo.xastresstester.XaStressTester" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

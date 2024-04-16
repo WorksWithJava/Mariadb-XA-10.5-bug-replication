@@ -1,0 +1,5 @@
+[mariadb]
+server_id=2
+log-basename=slave-mariadb
+replicate_do_db=srcschema
+replicate_wild_do_table=srcschema.%
