@@ -9,7 +9,9 @@ This program will insert a row in the database then send a message to an in-memo
 This bug only seems to happen if the following conditions are true:
 
 - `replicate_do_db` is present on the slave
-- DML statements are executed without a database selected (e.g. `jdbc:mariadb://localhost:3306` vs `jdbc:mariadb://localhost:3306/srcschema`)
+- DML statements are executed with a database selected that is not listed in `replicate_do_db`
+including none (e.g. `jdbc:mariadb://localhost:3306` or `jdbc:mariadb://localhost:3306/junkschema`
+vs `jdbc:mariadb://localhost:3306/srcschema`)
 
 ## Prerequisites:
 
