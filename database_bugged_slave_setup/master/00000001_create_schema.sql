@@ -15,7 +15,7 @@ CREATE SCHEMA junkschema;
 
 USE junkschema;
 
-CREATE TABLE `junkschema`
+CREATE TABLE `junktable`
 (
     `srcidentity` int(11) NOT NULL,
     `srcnumber`   int(11) NOT NULL,
