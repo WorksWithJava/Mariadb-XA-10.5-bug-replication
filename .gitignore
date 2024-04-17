@@ -1,6 +1,2 @@
 .idea/
-target/
 *.iml
-insert-transaction-log/
-delete-transaction-log/
-activemq-data/
