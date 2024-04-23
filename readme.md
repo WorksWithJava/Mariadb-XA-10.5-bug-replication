@@ -1,6 +1,6 @@
-# Mariadb XA 10.5 bug replication
+# Mariadb XA >= 10.5 bug replication
 
-This project replicates a bug in the replication feature of Mariadb 10.5 when XA transactions are involved.
+This project replicates a bug in the replication feature of Mariadb >= 10.5 when XA transactions are involved.
 
 ## Regarding the bug
 
