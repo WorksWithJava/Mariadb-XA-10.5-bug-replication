@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  master:
+    hostname: "mariadb-master"
+    build:
+      context: ./master
+    environment:
+      MARIADB_ROOT_PASSWORD: master
+    depends_on:
+      - "slave"
+    ports:
+      - "3306:3306"
+  slave:
+    build:
+      context: ./slave
+    environment:
+      MARIADB_ROOT_PASSWORD: slave
+    ports:
+      - "3307:3306"
