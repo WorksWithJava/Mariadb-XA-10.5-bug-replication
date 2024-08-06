@@ -1,3 +1,6 @@
+> [!WARNING]
+> This bug was fixed https://jira.mariadb.org/browse/MDEV-33921
+
 # Mariadb XA >= 10.5 bug replication
 
 This project replicates a bug in the replication feature of Mariadb >= 10.5 when XA transactions are involved.
